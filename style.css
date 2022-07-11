@@ -272,6 +272,9 @@ Our Service Section
   font-weight: bold;
   margin-bottom: 100px;
 }
+/*....................
+Footer Section
+.....................*/
 .border {
   border-top: 1px solid gray;
   margin-top: 30px;
@@ -290,4 +293,14 @@ footer {
 .color:hover {
   color: orangered;
   cursor: pointer;
+}
+.batch {
+  position: relative;
+}
+img.batch-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: -20px;
+  top: -25px;
 }
